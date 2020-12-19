@@ -1,0 +1,224 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ====================================================== */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.mainContainer{
+    width: 100%;
+    margin: 0 auto;
+}
+.headingContainer{
+    display: flex;
+    height: 800px;
+}
+.headingContainer img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.headingMain{
+    background-image: url(./assets/top-left-image.jpg);
+}
+.heading{
+    width: 400px;
+    text-align: center;
+    margin-top: 250px;
+    
+}
+.headingTitle{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding: 10px;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    line-height: 1;
+}
+.subHeading{
+    padding-bottom: 40px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 1;
+    
+}
+.reservationBox{
+    background-color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+.makeReservation{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+    
+}
+.makeReservation a:hover{
+    opacity: 0.9;
+}
+.topContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    padding-left: 30px;
+}
+
+.navigation{
+    display: flex;
+}
+.navigationBar{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+.navButton{
+    margin: 0 10px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.heroHeader{
+    display: flex;
+    align-items: center;
+}
+.heroContainer{
+    display: flex;
+    width: 1100px;
+    margin: 80px auto;
+    justify-content: space-between;
+
+}
+.heroLeftContainer{
+    width: 40%;
+}
+
+.heroHeading{
+    width: 20px;
+    height: 2px;
+    background-color: black;
+}
+.aboutUs{
+    color: black;
+    font-weight: bold;
+    padding: 20px;   
+}
+.delicious{
+    /* line-height: 1.8; */
+    font-size: 25px;
+    font-weight: 900;
+    color: #2a2a2a;
+    padding: 10px;
+}
+.klassyInfo{
+    font-size: 15px;
+    line-height: 25px;
+    color: #4d3535;
+    padding: 10px;
+}
+.klassyInfo a{
+    text-decoration: none;
+}
+.heroImages{
+    display: flex;
+    padding: 10px;
+}
+.offeringImages{
+    padding: 10px;
+}
+
+.heroRightContainer{
+   
+}
+.aboutVideoImage{
+    width: 30%;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: red;
+    color: white;
+}
+.footIcons{
+    display: flex;
+    width: 182px;
+    justify-content: space-around;
+}
+.copyright{
+    margin-top: 10px;
+}
+.copyrightKlassy{
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 1.8;
+}
+.icons{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 12px;
+    padding: 10px;
+    background-color: white;
+    color: red;
+}
